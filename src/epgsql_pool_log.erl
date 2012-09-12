@@ -30,4 +30,4 @@ log_warning(Area, Format, Args) ->
 
 log_debug(Area, Format) -> log_debug(Area, Format, []).
 log_debug(Area, Format, Args) ->
-    error_logger:ingo_msg("DEBUG: " ++ new_format(Area, Format), Args);
+    error_logger:ingo_msg("DEBUG: " ++ new_format(Area, Format), Args).
